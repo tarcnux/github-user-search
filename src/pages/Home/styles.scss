@@ -1,0 +1,41 @@
+main.home-container {
+    padding-top : 117px;
+    padding-left: 120px;
+}
+
+main.home-container h1 {
+    font-size     : 48px;
+    line-height   : 64px;
+    letter-spacing: 0.02em;
+    color         : #062847;
+    padding-bottom: 24px;
+}
+
+main.home-container p {
+    font-size     : 20px;
+    line-height   : 36px;
+    color         : #5A6774;
+    padding-bottom: 24px;
+}
+
+main.home-container a {
+    color: #1890FF;
+}
+
+main.home-container button {
+    padding      : 8px 18px 8px 18px;
+    background   : #1890FF;
+    border-radius: 4px;
+    color        : #fff;
+    font-size    : 16px;
+    line-height  : 24px;
+    border       : none;
+    display      : flex;
+    align-items  : center;
+    text-align   : center;
+    cursor       : pointer;
+
+    &:focus {
+        outline: none;
+    }
+}
