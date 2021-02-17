@@ -1,10 +1,10 @@
-import Navbar from 'Components/Navbar';
 import React from 'react';
+import Routes from 'Routes';
 import './app.scss';
 
 const App = () => {
     return (
-        <Navbar />
+        <Routes />
     );
 }
 
