@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# Github User Search
+Desafio Bootcamp [DevSuperior](https://github.com/devsuperior) 2.0 - Cap. 03
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Trabalho final do capítulo 03
+=============================
 
-## Available Scripts
+Enunciado do trabalho
+---------------------
 
-In the project directory, you can run:
+Você deverá criar um \***novo\*** projeto ReactJS, contendo uma busca
+simples de usuários integrando com a API oficial do **Github**. O
+trabalho envolve alguns dos principais conceitos passados até agora:
 
-### `yarn start`
+-   Criar o layout baseado em um protótipo do Figma
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-   Listar informações a partir de uma API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-   Loaders https://skeletonreact.com
 
-### `yarn test`
+-   Formulários
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   Rotas
 
-### `yarn build`
+O projeto deverá estar ser criado com o ```create-react-app```, usando o
+template *TypeScript*:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```npx create-react-app github-user-search --template typescript```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-------------------------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Link do protótipo no Figma: https://www.figma.com/file/NzeGEIb5oSAGtbu2BfvhDS/BDS-Cap3
 
-### `yarn eject`
+-------------------------------
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A API do Github para realizar o desafio é: https://api.github.com/users/NOME_USUÁRIO
+Em que, que no lugar de \"**NOME_USUÁRIO**\", deverá ser enviado o nome
+do usuário que foi preenchido no formulário da aplicação.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-------------------------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Clonar o repositório
+`$git clone https://github.com/tarcnux/github-user-search.git`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Instalar as dependências
+`$yarn install`
 
-## Learn More
+### Inicializar o projeto
+`$yarn start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Acessar pelo navegador
+`http://localhost:3000/`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+Rotas disponíveis aplicação:
+-----------------------------------
+
+1.  \"/\" - Home da aplicação
+
+- [ ] A fazer `http://localhost:3000/`
+
+2.  \"/search\" - Tela de pesquisar usuário
+
+- [ ] A fazer `http://localhost:3000/search`
+# Create React App
+
+Este projeto foi criado com o [Create React App](https://github.com/facebook/create-react-app).
+
+---
+<sub>Projeto desenvolvido com a tutoria de [Washington Soares](https://github.com/washingtonsoares) da [DevSuperior](https://github.com/devsuperior).</sub>
