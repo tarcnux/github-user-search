@@ -38,6 +38,8 @@ do usuário que foi preenchido no formulário da aplicação.
 
 -------------------------------
 
+## Como rodar este projeto localmente
+
 ### Clonar o repositório
 `$git clone https://github.com/tarcnux/github-user-search.git`
 
@@ -61,9 +63,9 @@ Rotas disponíveis aplicação:
 2.  \"/search\" - Tela de pesquisar usuário
 
 - [ ] A fazer `http://localhost:3000/search`
-# Create React App
-
-Este projeto foi criado com o [Create React App](https://github.com/facebook/create-react-app).
 
 ---
+
+<sub>Este projeto foi criado com o [Create React App](https://github.com/facebook/create-react-app).</sub>
+
 <sub>Projeto desenvolvido com a tutoria de [Washington Soares](https://github.com/washingtonsoares) da [DevSuperior](https://github.com/devsuperior).</sub>
