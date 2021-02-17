@@ -1,8 +1,11 @@
+import Navbar from 'Components/Navbar';
 import React from 'react';
 import './app.scss';
 
 const App = () => {
-    return <h1>Alo Ha Mundo</h1>
+    return (
+        <Navbar />
+    );
 }
 
 export default App;
