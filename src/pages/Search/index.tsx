@@ -13,7 +13,7 @@ const Search = () => {
                 />
                 <button>Encontrar</button>
             </header>
-            <ProfileDetails />
+            <ProfileDetails userName='tarcnux'/>
         </>
     )
 };
