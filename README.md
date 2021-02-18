@@ -5,7 +5,7 @@ Trabalho final do capítulo 03
 =============================
 ![Netlify](https://img.shields.io/netlify/db494d02-c77c-492f-bffe-aa127899bd7f)
 
-Disponível no [Netlify](https://github.com/tarcnux/github-user-search)
+Disponível no [Netlify](https://ds-tarcnux-github-user-search.netlify.app/)
 
 Enunciado do trabalho
 ---------------------
