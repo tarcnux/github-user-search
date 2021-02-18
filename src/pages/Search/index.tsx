@@ -3,6 +3,7 @@ import ProfileDetails from './Components/ProfileDetails';
 import './styles.scss';
 
 const Search = () => {
+
     return (
         <>
             <header className="header-container">
