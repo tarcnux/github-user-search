@@ -1,20 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ProfileDetails from './Components/ProfileDetails';
 import './styles.scss';
 
 const Search = () => {
 
+    const [inputGithubUserName, setInputGithubUserName] = useState('');
+    const [userName, setUserName] = useState('');
+
+    const handleOnChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setInputGithubUserName(event.target.value);
+    }
+
+    const handleOnSubmit = (event: React.FormEvent<HTMLFormElement> ) => {
+        event.preventDefault();
+        setUserName(inputGithubUserName);
+        setInputGithubUserName('');
+    };
+
     return (
         <>
             <header className="header-container">
                 <h1>Encontre um perfil no Github</h1>
-                <input
-                    type="text" name="github_user_name"
-                    placeholder="Usuário Github"
-                />
-                <button>Encontrar</button>
+                <form onSubmit={handleOnSubmit}>
+                    <input
+                        value={inputGithubUserName}
+                        type="text"
+                        name="githubUserName"
+                        placeholder="Usuário Github"
+                        onChange={handleOnChange}
+                    />
+                    <button>Encontrar</button>
+                </form>
             </header>
-            <ProfileDetails userName='tarcnux'/>
+            {userName && <ProfileDetails userName={userName} />}
+            
         </>
     )
 };
