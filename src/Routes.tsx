@@ -1,3 +1,4 @@
+import Footer from 'Components/Footer';
 import Navbar from 'Components/Navbar';
 import Home from 'pages/Home';
 import Search from 'pages/Search';
@@ -16,6 +17,7 @@ const Routes = () => (
                 <Search />
             </Route>
         </Switch>
+        <Footer />
     </BrowserRouter>
 );
 

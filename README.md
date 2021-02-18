@@ -3,6 +3,9 @@ Desafio Bootcamp [DevSuperior](https://github.com/devsuperior) 2.0 - Cap. 03
 
 Trabalho final do capítulo 03
 =============================
+![Netlify](https://img.shields.io/netlify/db494d02-c77c-492f-bffe-aa127899bd7f)
+
+Disponível no [Netlify](https://github.com/tarcnux/github-user-search)
 
 Enunciado do trabalho
 ---------------------
@@ -58,11 +61,11 @@ Rotas disponíveis aplicação:
 
 1.  \"/\" - Home da aplicação
 
-- [ ] A fazer `http://localhost:3000/`
+- [x] `http://localhost:3000/`
 
 2.  \"/search\" - Tela de pesquisar usuário
 
-- [ ] A fazer `http://localhost:3000/search`
+- [x] `http://localhost:3000/search`
 
 ---
 
